@@ -1,0 +1,17 @@
+bags/
+__pycache__/
+*.pyc
+/build/
+/devel/
+/install/
+/.ros/
+/.ros-replay/
+/.catkin_workspace
+/src/CMakeLists.txt
+*.log
+/verification-result.txt
+/recorded-inspection-result.json
+/releases/
+
+# Onboard adaptation is paused and kept separate from simulation releases.
+/realflight-adaptation/
